@@ -267,7 +267,7 @@
 }
 @media screen and (max-width: 1199px) {
   .cs-main_header .container {
-    max-width: 100%;
+    max-width: 1000px;
   }
 
   .cs-site_header.cs-style1 {
@@ -302,7 +302,7 @@
 .cs-site_branding {
   display: inline-block;
   img {
-    max-height: 45px;
+    max-height: 22px;
   }
 }
 
@@ -740,7 +740,7 @@
     margin-right: 0;
   }
   .cs-site_branding img {
-    max-height: 32px;
+    max-height: 25px;
   }
   .cs-site_header.cs-style1 .cs-btn {
     span {

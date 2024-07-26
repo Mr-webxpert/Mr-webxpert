@@ -1,3 +1,3 @@
 export const pageTitle = (title) => {
-  return ( document.title = title + " - WebXpert Solutions");
+  return ( document.title = title + " - Wexil");
 }

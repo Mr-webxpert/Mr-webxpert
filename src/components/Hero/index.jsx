@@ -19,9 +19,6 @@ export default function Hero({
       className="cs-hero cs-style1 cs-bg cs-fixed_bg cs-shape_wrap_1"
       style={{ backgroundImage: `url(${bgImageUrl})` }}
     >
-      <Div className="cs-shape_1" />
-      <Div className="cs-shape_1" />
-      <Div className="cs-shape_1" />
       <Div className="container">
         <Div className="cs-hero_text">
           <h1 className="cs-hero_title">{parse(title)}</h1>

@@ -62,12 +62,12 @@ export default function Home() {
         subtitle="We deliver best problem solving solution for our client and provide finest finishing product in present and upcoming future."
         btnText="Get a Quote"
         btnLink="/contact"
-        scrollDownId="#service"
+        scrollDownId="#home-page-service"
         socialLinksHeading="Follow Us"
         heroSocialLinks={heroSocialLinks}
         phoneNumber="+91 8459809540"
-        email="info@webxpert.com"
-        bgImageUrl="/images/hero_bg.jpeg"
+        email="info@wexil.com"
+        bgImageUrl="/images/hero-bg.jpeg"
       />
       {/* End Hero Section */}
 
@@ -83,6 +83,7 @@ export default function Home() {
       {/* End FunFact Section */}
 
       {/* Start Service Section */}
+      <div id="home-page-service"></div>
       <Spacing lg="150" md="80" />
       <Div id="service">
         <Div className="container">
@@ -159,9 +160,6 @@ export default function Home() {
       {/* Start Awards Section */}
       <Spacing lg="150" md="80" />
       <Div className="cs-shape_wrap_2">
-        <Div className="cs-shape_2">
-          <Div />
-        </Div>
         <Div className="container">
           <Div className="row">
             <Div className="col-xl-4">
@@ -190,7 +188,7 @@ export default function Home() {
         <Spacing lg="70" md="70" />
         <VideoModal
           videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
-          bgUrl="/images/video_bg.jpeg"
+          bgUrl="/images/video-bg.jpg"
         />
       </Div>
       {/* End Video Block Section */}

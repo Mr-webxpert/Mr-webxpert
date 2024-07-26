@@ -37,7 +37,7 @@ export default function AboutPage() {
       {/* Start Page Heading Section */}
       <PageHeading
         title="About Us"
-        bgSrc="images/about_hero_bg.jpeg"
+        bgSrc="images/page-bg.jpg"
         pageLinkText="About Us"
       />
       {/* End Page Heading Section */}

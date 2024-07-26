@@ -7,6 +7,10 @@
   }
 }
 
+#home-page-service {
+  height: 20px;
+}
+
 .cs-light {
   font-weight: 300;
 }
@@ -944,36 +948,6 @@ label {
         left: 35%;
       }
     }
-  }
-}
-
-.cs-shape_2 {
-  position: absolute;
-  height: 320px;
-  width: 320px;
-  div {
-    background-color: #000;
-    transform: rotate(45deg);
-    height: 100%;
-    width: 100%;
-  }
-}
-
-.cs-shape_wrap_2 {
-  position: relative;
-  .cs-shape_2 {
-    right: -10%;
-    top: 12%;
-    animation: animo-x 9s cubic-bezier(0.4, 0, 0.2, 1) infinite;
-  }
-}
-.cs-shape_wrap_3 {
-  position: relative;
-  .cs-shape_3 {
-    animation: animo-y 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
-    position: absolute;
-    right: 20px;
-    top: -15%;
   }
 }
 .cs-shape_wrap_4 {
